@@ -1,0 +1,116 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Quicksand';
+  }
+
+.nav-link,.navbar-brand{
+    font-weight:500;
+    font-size:21px;
+    color:#000000;
+ /*#FFDE00;*/
+}
+
+#intro{
+    margin-top:10%;
+    padding-left:10%;
+}
+
+.navbar-brand:hover{
+    background-size:40px;
+    background-image:url("yellowbg.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.nav-link:hover{
+    color:#FFDE00;
+   text-decoration: underline;
+   text-underline-offset:10px;
+}
+.resume{
+    background-color:#FFDE00;
+    color:#000000
+}
+.resume:hover{
+    background-color:#ffffff;
+    color:#000000;
+    border-color:#000000;
+}
+.myimg{
+    margin-top:10%;
+    width:70%;
+    margin-left:20%;
+    
+}
+.heading-skills{
+    width:150px;
+    color:#FFDE00;
+    font-size:35px;
+    font-weight:1000; 
+    padding:2%;
+}
+.heading-skills:hover{
+    text-decoration: underline;
+    text-underline-offset:10px;
+}
+ /* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+  } */
+
+   /* .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;.."); */
+  /* } */
+#skills1,#skills2{
+    padding-left:7%;
+}
+.img-fluid-rounded-start{
+   text-align: center;
+}
+.skill-1{
+    text-align: center;
+    /* /border:2px solid #000000; */
+    padding:2%;
+
+    /* margin:1%; */
+}
+.skill-1:hover{
+    /* background-color: #000000;
+    color:#ffffff; */
+    box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.container-fluid{
+    height:100vh;
+}
+#contact{
+    /* margin:4%; */
+    text-align: center;
+    background-image: url("https://image.shutterstock.com/image-illustration/abstract-yellow-background-copy-space-260nw-1551538238.jpg");
+/*     
+    background-size: cover; */
+}
+#projects{
+    margin-bottom:4%;
+}
+.projcard{
+    margin:4.5%;
+    padding:1%;
+    box-shadow:  0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.projimg{
+    text-align: center;
+}
+.footer{
+    margin:2% 2% 0 2%;
+}
+.contact-heading{
+    font-weight:1000;
+    color:#FFDE00;
+}
+.contact-icons{
+    margin:1%;
+}
